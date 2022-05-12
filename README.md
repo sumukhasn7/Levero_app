@@ -1,4 +1,4 @@
-# savaari_app
+# Levero Application
 
 A new Flutter project.
 
