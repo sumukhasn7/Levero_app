@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "918698474527",
+    "project_id": "levero-e7903",
+    "storage_bucket": "levero-e7903.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918698474527:android:279a5661b09eb8a94be92a",
+        "android_client_info": {
+          "package_name": "com.example.levero"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918698474527-elkqskj70ebu08dgkqk101rqc83vkd8g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXzRnAl8l59apPw78_io5ijFi8tl95aIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918698474527-elkqskj70ebu08dgkqk101rqc83vkd8g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
