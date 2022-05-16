@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:savaari_app/add_card_payment.dart';
-import 'package:savaari_app/add_wallet_money.dart';
+import 'add_card_payment.dart';
+import 'add_wallet_money.dart';
 import 'side_drawer_driver.dart';
 
 class Payments extends StatefulWidget {

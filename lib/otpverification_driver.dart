@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:savaari_app/main_page_driver.dart';
-import 'package:savaari_app/sign_in_driver.dart';
+import 'main_page_driver.dart';
+import 'sign_in_driver.dart';
 
 import 'constants.dart';
 import 'main_page_driver.dart';

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:savaari_app/constants.dart';
-import 'package:savaari_app/search_bar.dart';
+import 'constants.dart';
+import 'search_bar.dart';
 import 'app_text.dart';
 import 'side_drawer_driver.dart';
 

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:savaari_app/constants.dart';
-import 'package:savaari_app/document_verification.dart';
-import 'package:savaari_app/profile.dart';
-import 'package:savaari_app/profile_edit.dart';
-import 'package:savaari_app/side_drawer_driver.dart';
-import 'package:savaari_app/training.dart';
+import 'constants.dart';
+import 'document_verification.dart';
+import 'profile.dart';
+import 'profile_edit.dart';
+import 'side_drawer_driver.dart';
+import 'training.dart';
 // import 'package:settings_ui/settings_ui.dart';
 import 'main_page_driver.dart';
 import 'package:flutter_settings_ui/flutter_settings_ui.dart';

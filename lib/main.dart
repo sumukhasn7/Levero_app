@@ -1,44 +1,46 @@
 
 
+import 'package:Levero_app/driver_docs_varification%20(1).dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
-import 'package:savaari_app/add_cabs.dart';
-import 'package:savaari_app/add_card_payment.dart';
-import 'package:savaari_app/add_drivers.dart';
-import 'package:savaari_app/add_wallet_money.dart';
-import 'package:savaari_app/agreement_signing.dart';
-import 'package:savaari_app/assigned_bookings.dart';
-import 'package:savaari_app/booking_history.dart';
-import 'package:savaari_app/bookings.dart';
-import 'package:savaari_app/cab_verification.dart';
-import 'package:savaari_app/completed_trips.dart';
-import 'package:savaari_app/document_verification.dart';
-import 'package:savaari_app/driver_docs_varification.dart';
-import 'package:savaari_app/first_page.dart';
-import 'package:savaari_app/information.dart';
-import 'package:savaari_app/main_page_vendor.dart';
-import 'package:savaari_app/my_bookings.dart';
-import 'package:savaari_app/otpverification_vendor.dart';
-import 'package:savaari_app/payments.dart';
-import 'package:savaari_app/rough_work.dart';
-import 'package:savaari_app/sign_in_driver.dart';
-import 'package:savaari_app/main_page_driver.dart';
-import 'package:savaari_app/profile.dart';
+import 'add_cabs.dart';
+import 'add_card_payment.dart';
+import 'add_drivers.dart';
+import 'add_wallet_money.dart';
+import 'agreement_signing.dart';
+import 'assigned_bookings.dart';
+import 'booking_history.dart';
+import 'bookings.dart';
+import 'cab_verification.dart';
+import 'cabs_document_varification.dart';
+import 'completed_trips.dart';
+import 'document_verification.dart';
+import 'driver_docs_varification.dart';
+import 'first_page.dart';
+import 'information.dart';
+import 'main_page_vendor.dart';
+import 'my_bookings.dart';
+import 'otpverification_vendor.dart';
+import 'payments.dart';
+import 'rough_work.dart';
+import 'sign_in_driver.dart';
+import 'main_page_driver.dart';
+import 'profile.dart';
 import 'my_leads.dart';
 
-import 'package:savaari_app/location.dart';
-import 'package:savaari_app/cab_in_city.dart';
-import 'package:savaari_app/drivers.dart';
-import 'package:savaari_app/cabs.dart';
-import 'package:savaari_app/open_bookings.dart';
-import 'package:savaari_app/profile_edit.dart';
-import 'package:savaari_app/settings.dart';
+import 'location.dart';
+import 'cab_in_city.dart';
+import 'drivers.dart';
+import 'cabs.dart';
+import 'open_bookings.dart';
+import 'profile_edit.dart';
+import 'settings.dart';
 
-import 'package:savaari_app/contact.dart';
-import 'package:savaari_app/sign_up_driver.dart';
-import 'package:savaari_app/training.dart';
-import 'package:savaari_app/vendor_varification.dart';
+import 'contact.dart';
+import 'sign_up_driver.dart';
+import 'training.dart';
+import 'vendor_verification.dart';
 import 'package:splashscreen/splashscreen.dart';
 
 import 'homepage.dart';
@@ -87,7 +89,7 @@ class MyApp extends StatelessWidget {
         SignInDriver.id: (context) => SignInDriver(),
         SignUpDriver.id: (context) => SignUpDriver(),
         Firstpage.id: (context) => Firstpage(),
-        CabVerification.id: (context) => CabVerification(),
+        CabsDocumentVerification.id: (context) => CabsDocumentVerification(),
         DriverDocsVerification.id: (context) => DriverDocsVerification(),
         VendorVerification.id: (context) => VendorVerification(),
         AgreementSigning.id: (context) => AgreementSigning(),

@@ -1,8 +1,9 @@
+import 'package:Levero_app/driver_docs_varification%20(1).dart';
 import 'package:flutter/material.dart';
-import 'package:savaari_app/document_verification.dart';
-import 'package:savaari_app/driver_docs_varification.dart';
-import 'package:savaari_app/payments.dart';
-import 'package:savaari_app/profile_edit.dart';
+import 'document_verification.dart';
+import 'driver_docs_varification.dart';
+import 'payments.dart';
+import 'profile_edit.dart';
 
 import 'constants.dart';
 import 'document_verification.dart';

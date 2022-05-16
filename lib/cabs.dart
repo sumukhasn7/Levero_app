@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:savaari_app/side_drawer_driver.dart';
+import 'side_drawer_driver.dart';
 import 'add_cabs.dart';
 import 'main_page_driver.dart';
 

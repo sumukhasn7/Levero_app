@@ -36,6 +36,11 @@
             android:value="AIzaSyAt-Js2fs5gL2M2Sgh1Q_s3I_pG0vJUWec" />
     </application>
 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
     <uses-permission android:name="android.permission.CALL_PHONE"/>
     <uses-permission android:name="android.permission.ADD_VOICEMAIL"/>

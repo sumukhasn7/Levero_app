@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:savaari_app/constants.dart';
-import 'package:savaari_app/my_bookings.dart';
-import 'package:savaari_app/my_leads.dart';
+import 'constants.dart';
+import 'my_bookings.dart';
+import 'my_leads.dart';
 
-import 'package:savaari_app/side_drawer_driver.dart';
+import 'side_drawer_driver.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:savaari_app/side_drawer_vendor.dart';
+import 'side_drawer_vendor.dart';
 import 'app_text.dart';
 import 'payments.dart';
 

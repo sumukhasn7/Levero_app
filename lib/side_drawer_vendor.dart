@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:savaari_app/bookings.dart';
-import 'package:savaari_app/open_bookings.dart';
+import 'bookings.dart';
+import 'open_bookings.dart';
 
 import 'settings.dart';
 import 'open_bookings.dart';

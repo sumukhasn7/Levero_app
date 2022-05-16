@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:savaari_app/constants.dart';
-import 'package:savaari_app/map_screen.dart';
-import 'package:savaari_app/side_drawer_driver.dart';
+import 'constants.dart';
+import 'map_screen.dart';
+import 'side_drawer_driver.dart';
 import 'package:flutter_search_bar/flutter_search_bar.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 

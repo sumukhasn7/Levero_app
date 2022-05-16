@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:savaari_app/main_page_vendor.dart';
+import 'main_page_vendor.dart';
 import 'side_drawer_driver.dart';
 
 

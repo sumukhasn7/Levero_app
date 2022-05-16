@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:savaari_app/agreement_signing.dart';
-import 'package:savaari_app/main_page_vendor.dart';
-import 'package:savaari_app/otpverification_driver.dart';
-import 'package:savaari_app/main_page_driver.dart';
-import 'package:savaari_app/sign_up_driver.dart';
+import 'agreement_signing.dart';
+import 'main_page_vendor.dart';
+import 'otpverification_driver.dart';
+import 'main_page_driver.dart';
+import 'sign_up_driver.dart';
 import 'constants.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 

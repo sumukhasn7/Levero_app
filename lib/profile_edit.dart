@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:savaari_app/profile.dart';
+import 'profile.dart';
 
 import 'constants.dart';
 

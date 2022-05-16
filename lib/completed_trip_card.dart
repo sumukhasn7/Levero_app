@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:star_rating/star_rating.dart';
+// import 'package:star_rating/star_rating.dart';
+import 'package:smooth_star_rating/smooth_star_rating.dart';
+
 
 class CompletedTripCard extends StatelessWidget {
   const CompletedTripCard({
@@ -27,6 +29,7 @@ class CompletedTripCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var rating=1.0;
     return Container(
       child: Column(
         // mainAxisAlignment: MainAxisAlignment.center,
@@ -205,16 +208,22 @@ class CompletedTripCard extends StatelessWidget {
           Row(
             children: [
               Text("Trip Rating:"),
-              StarRating(
-                length: 5,
-                starSize: 40.0,
-                color: Colors.red,
-                // onRaitingTap: (rating) {
-                //   setState(() {
-                //     star_rating = rating;
-                //   });
+              SmoothStarRating(
+                allowHalfRating: false,
+                rating: rating,
+                isReadOnly: false,
+                size: 40,
+                filledIconData: Icons.star,
+
+                defaultIconData: Icons.star_border,
+                starCount: 5,
+
+                spacing: 2.0,
+                // onRated: (value) {
+                //   print("rating value -> $value");
+                //   // print("rating value dd -> ${value.truncate()}");
                 // },
-              ),
+              )
             ],
           ),
           SizedBox(

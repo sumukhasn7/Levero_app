@@ -2,8 +2,8 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:savaari_app/constants.dart';
-import 'package:savaari_app/side_drawer_driver.dart';
+import 'constants.dart';
+import 'side_drawer_driver.dart';
 import 'main_page_driver.dart';
 
 class DocumentVerification extends StatefulWidget {

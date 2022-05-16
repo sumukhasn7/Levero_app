@@ -4,7 +4,7 @@ import 'app_text.dart';
 
 class BookingHistory extends StatefulWidget {
   static const String id = 'BookingHistory';
-  const BookingHistory({Key? key}) : super(key: key);
+
 
   @override
   State<BookingHistory> createState() => _BookingHistoryState();

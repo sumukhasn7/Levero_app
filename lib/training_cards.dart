@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:savaari_app/constants.dart';
+import 'constants.dart';
 
 class TrainingCards extends StatelessWidget {
   TrainingCards(

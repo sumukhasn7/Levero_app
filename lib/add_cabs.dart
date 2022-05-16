@@ -1,7 +1,8 @@
-import 'package:flutter/cupertino.dart';
+
 import 'package:flutter/material.dart';
-import 'package:savaari_app/cab_verification.dart';
-import 'package:savaari_app/side_drawer_driver.dart';
+import 'cab_verification.dart';
+import 'cabs_document_varification.dart';
+import 'side_drawer_driver.dart';
 import 'app_text.dart';
 
 import 'constants.dart';
@@ -296,7 +297,7 @@ class _AddCabsState extends State<AddCabs> {
       width: MediaQuery.of(context).size.width,
       child: ElevatedButton(
         onPressed: () {
-          Navigator.pushNamed(context, CabVerification.id);
+          Navigator.pushNamed(context, CabsDocumentVerification.id);
         },
         style: ElevatedButton.styleFrom(
           primary: Color(0xFF1D1D2C),
